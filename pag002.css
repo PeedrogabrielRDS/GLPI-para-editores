@@ -1,0 +1,157 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+main{
+    width: 100%;
+    height: 100vh;
+}
+main header{
+    width: 100%;
+    height: 8vh;
+    background-color: #101014;
+}
+main header div img{
+    margin-left: 2%;
+    width: 8%;
+    height: 8vh;
+}
+main header div #logoheader{
+    width: 5%;
+}
+main section nav{
+    width: 100%;
+    height: 5vh;
+    background-color: #101014;
+}
+main nav a{
+    color: #000000;
+    width: 15%;
+    height: 4vh;
+    border-radius: 18px;
+    background-color: #ffffff65;
+    backdrop-filter: blur(60px);
+    float: left;
+    margin-top: 0.5vh;
+    margin-left: 13.75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+main nav a:hover{
+    transition: all 0.5s;
+    background-color: #4444446c;
+    color: #000000;
+}
+main section{
+    width: 100%;
+    height: 84vh;
+    background-image: url(img/BGI.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main section article{
+    margin-top: 10vh;
+    width: 20%;
+    height: 60vh;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    border: solid 1px #000;
+    border-radius: 18px;
+    float: left;
+    margin-left: 40%;
+}
+main section article div{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4.5%;
+    margin-top: 3vh;
+}
+main section article h1{
+    backdrop-filter: blur(90px);
+    background-color: #ffffff79;
+    width: 70%;
+    height: 5vh;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    border-radius: 100px;
+    margin-top: 2vh;
+    margin-left: 4.5%;
+}
+main section article div input{
+    margin-top: 1vh;
+    border-radius: 20px;
+    height: 4vh;
+    width: 100%;
+    text-indent: 10px;
+    border: solid 1px #000;
+    background-color: #ffffff79;
+}
+main section article div label{
+    margin-top: 2vh;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+main section article div select{
+    
+    border-radius: 20px;
+    height: 4.5vh;
+    width: 100%;
+    border: solid 1px #000;
+    background-color: #ffffff79;
+}
+main section article div p{
+    font-size: 1.1em;
+}
+main section article div button{
+    border-radius: 20px;
+    text-indent: 2px;
+    width: 30%;
+    height: 4vh;
+    border: solid 1px #000;
+    margin-top: 15vh;
+    background-color: #fff;
+    background-color: #ffffff79;
+}
+main footer{
+    width: 100%;
+    height:6vh; 
+    background-color: #101014;
+}
+main footer p{
+    float: left;
+    margin-top: 1.5vh;
+    margin-left: 5%;
+    width: 42%;
+    height: 4vh;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+main footer ul li a{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4.5%;
+    margin-top: 2vh;
+    width:10%;
+    height: 2vh;
+}

@@ -1,0 +1,110 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+main{
+    width: 100%;
+    height: 100vh;
+}
+main header{
+    width: 100%;
+    height: 8vh;
+    background-color: #101014;
+}
+main header div img{
+    margin-left: 1.4%;
+    width: 8%;
+    height: 8vh;
+}
+main header div #logoheader{
+    width: 5%;
+}
+main section nav{
+    width: 100%;
+    height: 5vh;
+    background-color: #101014;
+}
+main nav a{
+    color: #000000;
+    width: 15%;
+    height: 4vh;
+    border-radius: 18px;
+    background-color: #ffffff65;
+    backdrop-filter: blur(60px);
+    float: left;
+    margin-top: 0.5vh;
+    margin-left: 13.75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+main nav a:hover{
+    transition: all 0.5s;
+    background-color: #4444446c;
+    color: #000000;
+}
+main section{
+    width: 100%;
+    height: 84vh;
+    background-image: url(img/BGI.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main section #art1{
+    margin-top: 17vh;
+    width: 30%;
+    height: 50vh;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    border: solid 1px #000;
+    border-radius: 18px;
+    float: left;
+    margin-left: 13.3%;
+}
+main section #art2{
+    margin-top: 17vh;
+    width: 30%;
+    height: 50vh;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    border: solid 1px #000;
+    border-radius: 18px;
+    float: left;
+    margin-left: 13.3%;
+}
+main footer{
+    width: 100%;
+    height:6vh; 
+    background-color: #101014;
+}
+main footer p{
+    float: left;
+    margin-top: 1.5vh;
+    margin-left: 5%;
+    width: 42%;
+    height: 4vh;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+main footer ul li a{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4.5%;
+    margin-top: 2vh;
+    width:10%;
+    height: 2vh;
+}
