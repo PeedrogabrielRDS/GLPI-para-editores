@@ -1,0 +1,1 @@
+# GLPI-para-editores
